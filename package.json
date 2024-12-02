@@ -3,5 +3,23 @@
     "install": "(cd ./server && npm i) && (cd ./frontend && npm i)",
     "dev-server": "cd ./server && npm run dev",
     "dev-frontend": "cd ./frontend && npm run dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "nodemon": "^3.1.7",
+    "swagger-ui-express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "xmlbuilder2": "^3.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-xml-bodyparser": "^0.3.5",
+    "@types/swagger-ui-express": "^4.1.7"
   }
 }
